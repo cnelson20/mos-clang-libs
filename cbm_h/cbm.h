@@ -1,3 +1,6 @@
+#ifndef _CBM_H_CUSTOM
+#define _CBM_H_CUSTOM
+
 /* Kernal-level functions */
 unsigned char cbm_k_acptr (void);
 unsigned char cbm_k_basin (void);
@@ -28,3 +31,5 @@ void cbm_k_tksa (unsigned char addr);
 void cbm_k_udtim (void);
 void cbm_k_unlsn (void);
 void cbm_k_untlk (void);
+
+#endif 
