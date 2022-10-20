@@ -1,6 +1,6 @@
 .text
 
-#include <cbm.inc>
+#include <cbm_kernal.inc>
 ;
 ; void cbm_k_chrout (unsigned char C);
 ;

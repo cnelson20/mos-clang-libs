@@ -1,6 +1,6 @@
 .text
 
-#include <cbm.inc>
+#include <cbm_kernal.inc>
 
 ;
 ; unsigned char cbm_k_getin (void);

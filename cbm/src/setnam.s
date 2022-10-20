@@ -1,6 +1,6 @@
 .text
 
-#include <cbm.inc>
+#include <cbm_kernal.inc>
 __rs1 = __rc2
 
 ;
@@ -13,6 +13,10 @@ cbm_k_setnam:
 	lda __rs1 + 1
 	pha
 	jsr strlen
-	ply
-	plx
+	sta __rc2
+	pla 
+	tay
+	pla 
+	tax
+	lda __rc2
 	jmp SETNAM

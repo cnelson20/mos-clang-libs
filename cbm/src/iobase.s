@@ -1,6 +1,6 @@
 .text
 
-#include <cbm.inc>
+#include <cbm_kernal.inc>
 
 ;
 ; unsigned cbm_k_iobase (void);

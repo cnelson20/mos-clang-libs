@@ -1,6 +1,6 @@
 .text
 
-#include <cbm.inc>
+#include <cbm_kernal.inc>
 
 __rs1 = __rc2
 __rs2 = __rc4 
