@@ -1,5 +1,6 @@
 .text
 
+#include <cbm.inc>
 __rs1 = __rc2
 
 ;
@@ -14,4 +15,4 @@ cbm_k_setnam:
 	jsr strlen
 	ply
 	plx
-	jmp $FFBD
+	jmp SETNAM

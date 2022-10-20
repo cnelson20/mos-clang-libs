@@ -1,5 +1,7 @@
 .text
 
+#include <cbm.inc>
+
 ;
 ; unsigned char cbm_k_chkin (unsigned char FN);
 ;
